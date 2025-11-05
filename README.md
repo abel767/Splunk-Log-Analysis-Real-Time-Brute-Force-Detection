@@ -12,12 +12,14 @@ From data ingestion to real-time threat detection and alerting, this project sho
 # Data Flow Architecture
 The project creates a safe and effective data flow: <br>
 
-**WSL/Hydra (Attack) → Kali Universal Forwarder → Kali SSH Service → TCP Port 9997 → Windows Splunk Indexer** <br>
+<img width="821" height="628" alt="Splunk_diagram" src="https://github.com/user-attachments/assets/57640105-1a7a-438b-9389-cadbaf5b60b7" />
+
+<br>
 <br>
 Real-time log collection and analysis of security-related data is made possible by this architecture.
 
 # 1. Kali Universal Forwarder (UF) Setup & Configuration
-Kali Linux's Universal Forwarder is in charge of keeping an eye on local log files and safely sending them to the Splunk Indexer.
+Kali Linux’s Universal Forwarder is responsible for monitoring local log files and securely sending them to the Splunk Indexer.
 
 ### 1.1. UF Installation
 The Splunk Universal Forwarder (version 10.0.1) was manually installed on the Kali Linux system. <br>
@@ -119,7 +121,7 @@ Verification Procedure:
 # Conclusion
 From endpoint collection to real-time alerting, this project effectively built a comprehensive, operational Security Information and Event Management (SIEM) pipeline.
 <br>
-This exercise's thoroughness validates abilities in three main areas:
+This exercise validates proficiency in three main areas:
 <br>
 1. **Data Reliability:** Solved and fixed operational issues (such as the "Forwarder Not Running" status) that halt the data stream, as well as successfully debugged and guaranteed continuous log forwarding from a Linux Universal Forwarder (Kali).
 2. **Advanced Analysis (SPL):** Developed and implemented strong Search Processing Language (SPL) logic that goes beyond log viewing to actionable threat detection by precisely detecting brute-force patterns by establishing anomaly thresholds (Number of results > 5).
