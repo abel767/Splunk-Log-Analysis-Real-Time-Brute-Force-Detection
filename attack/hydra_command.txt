@@ -1,0 +1,1 @@
+hydra -L <user_list> -P <password_list> ssh://<Target_ip>
