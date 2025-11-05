@@ -8,7 +8,7 @@ From data ingestion to real-time threat detection and alerting, this project sho
 • Kali Linux: - Target system for SSH attacks and host for the Universal Forwarder.
 • Windows Subsystem for Linux (WSL): - Attacker machine, running Hydra.
 • Hydra: - Network logon cracker used to simulate brute-force attempts.
-• Search Processing Language (SPL): - Splunk's powerful query language for data analysis and           correlation.
+• Search Processing Language (SPL): - Splunk's powerful query language for data analysis and correlation.
 
 # Data Flow Architecture
 The project creates a safe and effective data flow: 
