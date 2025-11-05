@@ -81,8 +81,7 @@ Verification Search Query:
 <br>
   
 ## 3.2. Real-Time Alert Configuration
-To keep an eye out for a spike in login failures and set an anomaly threshold, the baseline search was transformed into a real-time alert.
-<br>
+To ensure the quickest possible detection of automated threats, the baseline search was converted into a Real-time Alert to keep an eye out for a spike in login failures.<br>
 
 <img width="1006" height="856" alt="8 revised" src="https://github.com/user-attachments/assets/b9ff457a-25db-49be-bc54-367e2a45e6fd" />
 <br>
