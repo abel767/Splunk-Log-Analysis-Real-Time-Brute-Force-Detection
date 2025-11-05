@@ -64,6 +64,7 @@ sourcetype = auth**
 <br>
 Hydra was used to initiate a brute-force attack from the WSL environment.
 <br>
+<br>
 
 
 <img width="1471" height="470" alt="image" src="https://github.com/user-attachments/assets/586ba45b-134e-4777-8f5f-f69826ace7e6" /> <br>
@@ -73,12 +74,14 @@ Hydra was used to initiate a brute-force attack from the WSL environment.
 <br>
 The simplest search to confirm that raw failed login events are successfully arriving and being indexed from the Kali Forwarder is documented in this step.
 <br>
-
+<br>
 Verification Search Query:
+<br>
+<br>
 
 **index=main host=kali sourcetype=auth "Failed password"**
 <br>
-
+<br>
 <img width="1901" height="875" alt="7revised" src="https://github.com/user-attachments/assets/a791118b-e61b-4825-8150-391c596104c8" />
 <br>
   
@@ -100,7 +103,9 @@ The following settings were used to configure the final alert:
 ## 3.3. Final Alert Verification
 By carrying out a fresh attack and confirming that the alert triggers and logs the history appropriately, this step shows that the alert logic is effective.
 <br>
-Verification Procedure: 
+<br>
+
+**Verification Procedure:**
 <br>
 1. The Kali Forwarder was started again.
 2. The Hydra attack was executed again (a third time) to generate fresh log data for the alert to       find.
