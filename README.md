@@ -3,12 +3,12 @@
 From data ingestion to real-time threat detection and alerting, this project shows how to set up a fundamental Security Information and Event Management (SIEM) pipeline. It focuses on using Splunk to detect SSH brute-force attacks against a Linux system, which are simulated using the Hydra tool.
 
 # Technologies Used
-• Splunk Enterprise: (Indexer, Search Head) - Hosted on a Windows machine.
-• Splunk Universal Forwarder (UF): - Installed on Kali Linux, acting as a data source.
-• Kali Linux: - Target system for SSH attacks and host for the Universal Forwarder.
-• Windows Subsystem for Linux (WSL): - Attacker machine, running Hydra.
-• Hydra: - Network logon cracker used to simulate brute-force attempts.
-• Search Processing Language (SPL): - Splunk's powerful query language for data analysis and correlation.
+* Splunk Enterprise: (Indexer, Search Head) - Hosted on a Windows machine.
+* Splunk Universal Forwarder (UF): - Installed on Kali Linux, acting as a data source.
+* Kali Linux: - Target system for SSH attacks and host for the Universal Forwarder.
+* Windows Subsystem for Linux (WSL): - Attacker machine, running Hydra.
+* Hydra: - Network logon cracker used to simulate brute-force attempts.
+* Search Processing Language (SPL): - Splunk's powerful query language for data analysis and correlation.
 
 # Data Flow Architecture
 The project creates a safe and effective data flow: 
