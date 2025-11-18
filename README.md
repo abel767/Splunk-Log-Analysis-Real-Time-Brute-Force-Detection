@@ -1,3 +1,6 @@
+![Status](https://img.shields.io/badge/Project-SIEM%20Pipeline-blue)
+![Splunk](https://img.shields.io/badge/Splunk-Enterprise-green)
+![Kali](https://img.shields.io/badge/Kali-Linux-red)
 # Project Overview
 From data ingestion to real-time threat detection and alerting, this project shows how to set up a fundamental Security Information and Event Management (SIEM) pipeline. It focuses on using Splunk to detect SSH brute-force attacks against a Linux system, which are simulated using the Hydra tool.
 
